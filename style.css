@@ -1,0 +1,177 @@
+/* <uniquifier>: Use a uniquifier for the class name
+<weight>: Use a value from 100 to 800 */
+
+/* code for general use and variables */
+
+:root {
+  --background: #0a0a0a;
+  --surface-dark: #171717;
+  --surface-main: #262626;
+  --surface-light: #404040;
+  --white-on: #ffffff;
+  --black-on: #000000;
+  --primary-color: #60a5fa;
+  --secondary-color: #e11d48;
+  --tertiary-color: #9333ea;
+  --success-color: #4ade80;
+  --warning-color: #fbbf24;
+  --error-color: #f87171;
+  --header-one-font-size: 48px;
+  --header-two-font-size: 32px;
+  --header-three-font-size: 24px;
+  --header-four-font-size: 20px;
+  --header-five-font-size: 18px;
+  --paragraph-font-size: 18px;
+}
+
+* {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--white-on);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--header-one-font-size);
+}
+h2 {
+  font-size: var(--header-two-font-size);
+}
+h3 {
+  font-size: var(--header-three-font-size);
+}
+h4 {
+  font-size: var(--header-four-font-size);
+}
+h5 {
+  font-size: var(--header-five-font-size);
+}
+p {
+  font-size: var(--paragraph-font-size);
+}
+
+/* Header | Top of page */
+
+.header {
+  width: 100%;
+  height: 6.76vh;
+  background-color: var(--surface-dark);
+}
+
+.header__section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 22px 0px 17px 45px;
+}
+
+.header__img {
+  width: 34px;
+  height: 34px;
+}
+
+.header__text {
+}
+
+/* main */
+
+.main {
+  display: flex;
+}
+
+/* First navbar */
+.navbar {
+  width: 16.41vw;
+  height: auto;
+  top: 6.76%;
+  background-color: var(--background);
+}
+
+.navbar__section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.navbar__button {
+  display: flex;
+  gap: 20px;
+  padding: 18.5px 79px 18.5px 30px;
+  text-decoration: none;
+}
+
+.navbar__button--active:hover {
+}
+
+.navbar__button-img {
+  color: var(--white-on);
+}
+
+.navbar__button-text {
+}
+
+/* Second navbar */
+.secondnavbar {
+  width: 16.93vw;
+  height: auto;
+  background-color: var(--surface-dark);
+}
+
+.secondnavbar__section {
+  display: flex;
+  flex-direction: column;
+  padding: 23px 19px 0px 24px;
+}
+
+.secondnavbar__button {
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+}
+
+.secondnavbar__button--active:hover {
+}
+
+.secondnavbar__button-img {
+}
+
+.secondnavbar__button-text {
+}
+
+/* main part */
+
+.main__text {
+  background-color: var(--surface-main);
+  width: 67vw;
+  height: auto;
+}
+
+.main__section {
+  padding: 39px 49px 51px 54px;
+}
+
+.main__title {
+}
+
+.main__article {
+}
+
+.main__article-text {
+}
+
+.main__article-img {
+  width: 553px;
+  height: 338px;
+  padding: 16px 0px 16px 0px;
+}
+
+.main__article-infobox {
+  width: 1100px;
+  height: 176px;
+  padding: 16px 0px 16px 16px;
+  line-height: 30px;
+  background-color: var(--surface-light);
+}
