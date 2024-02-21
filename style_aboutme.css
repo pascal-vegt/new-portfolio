@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.secondnavbar__special {
+  width: 113px;
+  height: 100vh;
+  background-color: var(--surface-dark);
+}
+
+.secondnavbar__special-image--first {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.secondnavbar__special-section {
+  padding-top: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.secondnavbar__special-button {
+  height: 64px;
+  width: 64px;
+}
