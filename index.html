@@ -13,14 +13,62 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body></body>
+<section class="aboutme__overlay, aboutme__overlay--inactive" id="aboutme__overlay">
+    <article class="aboutme__overlay-article">
+        <h3>About me</h3><br>
+        <p>
+            Hoi, ik ben Pascal van der Vegt, 19 jaar oud en momenteel bezig met mijn opleiding tot Software
+            developer
+            <br>
+            bij het Techniek College Rotterdam. Mijn vrije tijd besteed ik graag aan gamen of aan <br>
+            rustgevende wandelingen, vaak in het gezelschap van mijn trouwe hond Pixel. <br>
+            <br>
+            Buiten mijn studie ben ik actief betrokken bij de technische ondersteuning van Vocal Popgroup Re-flax,
+            <br>
+            waar ik mijn inzet toon om het koor te ondersteunen. Daarnaast ben ik ook lid van de Erasmus E-sport.
+            <br><br><br>
+        </p>
+        <h3>Contact Informatie</h3><br>
+        <div class="aboutme__overlay-object">
+            <img class="aboutme__overlay-image aboutme__overlay-image--margin-bottom" src="./img/svg/image 4.svg"
+                alt="">
+            <div class="aboutme__overlay-objecttext">
+                <h4>LinkedIn</h4>
+                <a class="" href="https://www.linkedin.com/in/pascal-van-der-vegt-bb1a90234/" target="_blank">
+                    https://www.linkedin.com/in/pascal-van-der-vegt
+                </a>
+            </div>
+        </div>
+        <div class="aboutme__overlay-object">
+            <img class="aboutme__overlay-image aboutme__overlay-image--margin-bottom" src="./img/svg/image 6.svg"
+                alt="">
+            <div class="aboutme__overlay-objecttext">
+                <h4>Github</h4>
+                <a class="" href="https://github.com/pascal-vegt" target="_blank">
+                    https://github.com/pascal-vegt
+                </a>
+            </div>
+        </div>
+        <div class="aboutme__overlay-object">
+            <img class="aboutme__overlay-image" src="./img/svg/email.svg" alt="">
+            <div class="aboutme__overlay-objecttext">
+                <h4>E-mail</h4>
+                <a href="mailto:stefanpftf@gmail.com">
+                    stefanpftf@gmail.com
+                </a>
+            </div>
+        </div>
+    </article>
+</section>
+<main>
     <div class="header">
         <div class="header__section">
             <img class="header__img" src="./img/svg/temp.svg" alt="">
             <h3 class="header__text">Pascal van der Vegt</h3>
         </div>
     </div>
-    <main class="main">
+    <section class="main">
         <nav class="navbar">
             <section class="navbar__section">
                 <a class="navbar__button navbar__section-button--active" href="./index.html">
@@ -42,10 +90,6 @@
                     <img class="navbar__button-img--selected" src="./img/svg/projects.svg" alt="">
                     <h2 class="navbar__button-text">Projects</h2>
                 </a>
-                <a class="navbar__button navbar__section-button--active" href="./aboutme.html">
-                    <img class="navbar__button-img" src="./img/svg/aboutme.svg" alt="">
-                    <h2 class="navbar__button-text">About me</h2>
-                </a>
             </section>
         </nav>
         <div class="main__homepage">
@@ -60,11 +104,11 @@
                     <div class="main__homepage-profile-text">
                         <div class="main__homepage-profile-text--together">
                             <h2>Pascal van der Vegt</h2>
-                            <h4>Frontend Webdeveloper</h4>
+                            <h5 class="font-300">Frontend Webdeveloper</h5>
                         </div>
-                        <a href="./aboutme.html">
-                            <h4>Read more</h4>
-                        </a>
+                        <div class="aboutme__button" id="aboutme__overlay-button">
+                            <h4>About me.</h4>
+                        </div>
                     </div>
                 </article>
             </section>
@@ -110,7 +154,10 @@
                 </article>
             </section>
         </div>
-    </main>
+    </section>
+</main>
+
+<script src="script.js"></script>
 </body>
 
 </html>

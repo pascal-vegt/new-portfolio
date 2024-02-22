@@ -1,0 +1,33 @@
+.main {
+  background-color: var(--surface-dark);
+}
+
+.main__skills-text {
+  padding: 39px 49px 51px 54px;
+  box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.skills__section {
+}
+
+.skills__article-3x2 {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 53px;
+  flex-wrap: wrap;
+  padding: 26.5px 0px 26.5px 0px;
+}
+
+.skills__individual {
+  width: 400px;
+  height: 100px;
+  background-color: var(--surface-main);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
+}
