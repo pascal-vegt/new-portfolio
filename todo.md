@@ -9,6 +9,8 @@
 [x] - Links naar LinkedIn/ GitHub/ Gitlab
 [/] - Voorbeelden van projecten die je hebt gedaan
 
+ik loop volledig vast op de mobile versie maken van de portfolio kunt u mij a.s. maandag assisteren hiermee?
+
 ### Vaardigheden (in de cv)
 
 Patronen herkennen

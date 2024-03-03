@@ -6,3 +6,8 @@ aboutmeButton.addEventListener("click", function () {
   aboutmeOverlay.classList.remove("aboutme__overlay--inactive");
   console.log("working");
 });
+
+closeAboutmeButton.addEventListener("click", function () {
+  aboutmeOverlay.classList.add("aboutme__overlay--inactive");
+  aboutmeOverlay.classList.remove("aboutme__overlay--active");
+})

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style_mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
@@ -38,8 +39,12 @@
                     <img class="navbar__button-img" src="../img/svg/blue/projects.svg" alt="">
                     <div class="navbar__button-selected">
                         <h2 class="navbar__button-text">Projects</h2>
-                        <img src="../img/svg/horizontal.svg" alt="">
+                        <img class="navbar__button-selected--desktop" src="../img/svg/horizontal.svg" alt="">
                     </div>
+                </a>
+                <a class="navbar__button navbar__section-button--active hidden" href="./aboutme.html">
+                    <img class="navbar__button-img" src="../img/svg/aboutme.svg" alt="">
+                    <h2 class="navbar__button-text">About me</h2>
                 </a>
             </section>
         </nav>
@@ -55,7 +60,7 @@
                     <h3 class="secondnavbar__button-text">Portfolio website</h3>
                 </a>
                 <a class="secondnavbar__button" href="./gamewebsite.html">
-                    <img src="../img/svg/vertical.svg" alt="">
+                    <img class="navbar__button-selected--desktop" class="navbar__button-selected--desktop" src="../img/svg/vertical.svg" alt="">
                     <h3 class="secondnavbar__button-text">Game website</h3>
                 </a>
                 <a class="secondnavbar__button" href="./dtp.html">
@@ -75,7 +80,7 @@
                 </a>
             </section>
         </nav>
-        <div class="main__text">
+        <div class="main__text secondnavbar--away front">
             <section class="main__section">
                 <h1 class="main__title">Project Game website</h1>
                 <article class="main__article">
